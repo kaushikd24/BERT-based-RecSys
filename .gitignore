@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Logs and Outputs
+logs/
+*.log
+
+# Model Checkpoints
+checkpoints/
+*.pth
+*.ckpt
+
+# Dataset Cache and Temporary Files
+*.tmp
+*.cache
+*.bak
+*.swp
+*.DS_Store
+*.tar.gz
+
+# VSCode Settings
+.vscode/
+
+# Python-specific
+*.pkl
+*.joblib
+
+# Mac OS
+.DS_Store
+
+# Colab / Google Drive Mounts
+gdrive/
+drive/
+
+# Ignore environment config secrets
+config/*.local.yaml
+config/secret*.yaml
+
+# Don't ignore Jupyter notebooks
+!*.ipynb
